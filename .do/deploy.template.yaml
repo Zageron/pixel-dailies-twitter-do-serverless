@@ -1,0 +1,13 @@
+alerts:
+- rule: DEPLOYMENT_FAILED
+- rule: DOMAIN_FAILED
+functions:
+- github:
+    branch: main
+    deploy_on_push: true
+    repo: zageron/pixel-dailies-twitter-do-serverless
+  name: count
+  routes:
+  - path: /
+  source_dir: /
+name: pixel-dailies
