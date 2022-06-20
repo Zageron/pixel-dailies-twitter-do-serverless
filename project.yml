@@ -1,5 +1,5 @@
 packages:
-  - name: joke
+  - name: pixel-dailies
     actions:
-      - name: joke
+      - name: count
         runtime: 'python:default'
