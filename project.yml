@@ -1,5 +1,5 @@
 packages:
-  - name: pixel-dailies
+  - name: pixeldailies
     actions:
       - name: count
         runtime: 'python:default'
