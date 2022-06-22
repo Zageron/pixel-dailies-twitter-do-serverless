@@ -2,11 +2,16 @@
   {
     "apihost": "https://faas-tor1-70ca848e.doserverless.co",
     "namespace": "fn-45d99ef5-cd4a-44b3-b587-422dfb4793ba",
-    "packageVersions": {},
+    "packageVersions": {
+      "pixeldailies": {
+        "version": "0.0.47",
+        "digest": "99db5c481bcd53054e2564ed4962e5fe34803797418744b82c9feb0feff1b890"
+      }
+    },
     "actionVersions": {
       "pixeldailies/count": {
-        "digest": "e61d833038f7f82479191d8ab565104f1c2a4892a9d65aebfc2caca1eb848006",
-        "version": "0.0.43"
+        "version": "0.0.44",
+        "digest": "ed3cde7476a98b016777023385035b5fe4178d12bb89c76c3f29049d77084d6b"
       }
     },
     "webHashes": {}

@@ -1,4 +1,4 @@
 virtualenv virtualenv
-source virtualenv/bin/activate
+virtualenv/bin/activate.ps1
 pip install -r requirements.txt
-deactivate
+virtualenv/bin/deactivate.bat
